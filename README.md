@@ -2,8 +2,6 @@
 
 **Andrew Myers** · November 21, 2025
 
-*Staff Network Engineer at Google | Expert in AI Networking & Cloud Solutions | CCIE Certified*
-
 ---
 
 Stacking two Sparks lets you push into model sizes and throughput a single unit can't comfortably handle. With two GB10 systems you can theoretically run data/model/tensor parallelism across nodes and pool working memory across processes. Each Spark integrates the GB10 Grace-Blackwell superchip with 128 GB coherent unified system memory and a 200 Gb/s CX-7 NIC; NVIDIA quotes ~1 PF FP4-class AI performance per unit. There's no inter-box NVLink (one GPU only) and interconnect is Ethernet only over CX-7, so multi-node collectives ride NCCL over RoCEv2.
