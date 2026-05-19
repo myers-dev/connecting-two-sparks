@@ -10,8 +10,6 @@ I used **Ascent GX10** for this test. Thanks Asus for the GX10 units and CDW for
 
 ![Ascent GX10 units with NADDOD QSFP56 200G DAC cables](images/page1_img1.png)
 
-![Setup overview](images/page1_img3.png)
-
 ---
 
 ## NVIDIA Recommendation vs What I Used
